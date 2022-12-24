@@ -6,6 +6,4 @@ titles = [
 
 var titlesIndex = titles[Math.floor(Math.random()*titles.length)];
 
-setInterval(() => {
-    document.title = titlesIndex;
-}, 5000)
+document.title = titlesIndex;
